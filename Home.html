@@ -5,8 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
     <style>
-        body {
+        body,
+        h1 {
             padding: 0;
             margin: 0;
         }
@@ -156,8 +162,8 @@
             padding: 0;
             margin: 0;
             font-size: 20px;
-            
-            
+
+
 
         }
 
@@ -167,83 +173,87 @@
             width: 240px;
             border-radius: 8px;
             display: flex;
-        margin-left: 650px;
-        margin-top: 30px;
-           
+            margin-left: 650px;
+            margin-top: 30px;
+
             justify-content: center;
             align-items: center;
             background-color: black;
             color: white;
-    
-            
-            
+
+
+
 
         }
-        .shirt{
+
+        .shirt {
             height: 420px;
             width: 1100x;
             display: flex;
             border: 1x solid black;
             justify-content: center;
             align-items: center;
-            gap: 20px
-            ;
-           
-        }
-        .shirt>.img2 {
-            height: 340px;
-            width: 340px;
-             border: 1px solid black; 
-             background-image: url(./asset/container/image\ container\ \(1\).png);
+            gap: 20px;
 
-           
+        }
+
+        .img2 {
+
+            border: 1px solid black;
+            background-image: url(./asset/container/image\ container\ \(1\).png);
+
+
             background-position: center;
             background-repeat: no-repeat;
-            background-size: cover; 
+            background-size: cover;
         }
-        .shirt>.img3 {
-            height: 340px;
-            width: 340px;
-             border: 1px solid black; 
-             background-image: url(./asset/container/image\ container\ \(2\).png);
 
-            
+        .img3 {
+
+            border: 1px solid black;
+            background-image: url(./asset/container/image\ container\ \(2\).png);
+
+
             background-position: center;
             background-repeat: no-repeat;
-            background-size: cover; 
+            background-size: cover;
         }
-        .shirt>.img4 {
-            height: 340px;
-            width: 340px;
-             border: 1px solid black; 
-             background-image: url(./asset/container/image\ container\ \(3\).png);
 
-            
+        .img4 {
+
+            border: 1px solid black;
+            background-image: url(./asset/container/image\ container\ \(3\).png);
+
+
             background-position: center;
             background-repeat: no-repeat;
-            background-size: cover; 
+            background-size: cover;
         }
-         .price{
+
+        .price {
             height: 80px;
             width: 340px;
             gap: 4px;
             padding: 12px;
             border: 1px solid black;
-         }
-         .price>.price1{
+        }
+
+        .price>.price1 {
             background-image: url(./asset/container/text\ content.png);
             background-position: center;
             background-repeat: no-repeat;
-            background-size: cover; 
+            background-size: cover;
 
-         }
+        }
 
         /* .box1>.img {
             height: 180px;
             width: 180px;
             padding-right: 500px;
         } */
-         .faq{}
+         .faq{
+            
+         }
     </style>
 </head>
 
@@ -296,48 +306,61 @@
 
             <h4>See what our customers are buynig</h4>
         </div>
-        
 
-        
-        
 
 
     </div>
-    <div class="btn3">
-        <button> View all product</button>
+
+    <div class="row">
+
+        <div class="btn3">
+            <button> View all product</button>
+        </div>
+
+
     </div>
 
 
-    <div class="shirt">
-        <div class="img2"></div>
-        <div class="img3"></div>
-        <div class="img4"></div>
-
-    </div>
-
-    <div class="price">
-        <div class="price1"></div>
-        <div class="price2"></div>
-        <div class="price3"></div>
-    </div>
-
-
-
-    <!-- <div class="img">
-        <img src="./asset/container/card.png" alt="">
-        <img src="./asset/container/image container (1).png" alt="">
-        <img src="./asset/container/card (1).png" alt="">
-    </div>  -->
-    <div class="Faq">
-        
-        <h2>FAQs</h2>
-        <h4>Find answer to common questions</h4>
-
-        <div>
-            <button>Contact Us</button>
+    <div class="row mt-6">
+        <div class="card">
+            <div class="img img2"></div>
+            <p>ProductName</p>
+            <p class="bold">Price: $100</p>
+        </div>
+        <div class="card">
+            <div class="img img3"></div>
+            <p>ProductName</p>
+            <p class="bold">Price: $100</p>
+        </div>
+        <div class="card">
+            <div class="img img3"></div>
+            <p>ProductName</p>
+            <p class="bold">Price: $100</p>
         </div>
 
     </div>
+
+
+    </div>
+
+    <div class="main-row">
+        <div class="row">
+            <div class="faq-continar">
+
+                <h1 class="fs-48 roboto-bold">FAQs</h1>
+
+
+                <p>Find answers to common questions</p>
+
+                <button class="btn bg-black">Countact Us</button>
+            </div>
+            <div class="faq-continar-img"></div>
+
+        </div>
+
+    </div>
+
+
 
 
 
